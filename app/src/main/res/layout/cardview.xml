@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_margin="4dp"
+    app:cardBackgroundColor="#c299ff"
+    app:cardCornerRadius="25dp"
+    app:cardElevation="15dp"
+    android:padding="6dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    tools:ignore="MissingConstraints"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:padding="8dp"
+
+
+            >
+
+            <TextView
+                android:id="@+id/image"
+                android:layout_width="66dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/user"
+                android:layout_width="118dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="30dp"
+                android:layout_toEndOf="@id/image"
+                android:gravity="center"
+                android:text="Username"
+                android:textColor="@color/purple_500"
+                android:textSize="24sp"
+                android:textStyle="italic">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/puan"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:layout_toEndOf="@id/user"
+                android:gravity="center"
+                android:text="Puan"
+                android:textColor="@color/purple_500"
+                android:textSize="24sp"
+                android:textStyle="italic">
+
+            </TextView>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+

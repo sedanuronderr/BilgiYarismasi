@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">BilgiYarismasi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="veh_cles">VEHİCLES</string>
+    <string name="geography">GEOGRAPHY</string>
+    <string name="computer">COMPUTER</string>
+    <string name="math">MATH</string>
+    <string name="mus_c">MUSİC</string>
+    <string name="any">ANY</string>
+    <string name="general">GENERAL</string>
+    <string name="f_lm">FİLM</string>
+    <string name="h_story">HİSTORY</string>
+    <string name="list">list</string>
+    <string name="oyun">oyun</string>
+
+</resources>

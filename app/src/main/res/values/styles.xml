@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Widget.MaterialComponents.Button">
+        <item name="colorPrimary">@color/pink</item>
+        <item name="android:background">@drawable/design_button</item>
+        <item name="colorPrimaryDark">@color/gray</item>
+        <item name="colorAccent">@color/purple_500</item>
+
+    </style>
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "729142433834",
+    "firebase_url": "https://bilgii-8d6db.firebaseio.com",
+    "project_id": "bilgii-8d6db",
+    "storage_bucket": "bilgii-8d6db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729142433834:android:a5d375bdfe7e87ed70cb53",
+        "android_client_info": {
+          "package_name": "com.example.bilgiyarismasi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729142433834-s5ss355o9fmslgbjdeeqtd4tbh0juv9u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSIulTmB8JAqc9vuZ-eUMekSlJOMVXtfU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729142433834-s5ss355o9fmslgbjdeeqtd4tbh0juv9u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
