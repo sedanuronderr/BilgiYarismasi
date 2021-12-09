@@ -27,7 +27,8 @@ class esBulmaOyunu : AppCompatActivity() {
         setContentView(R.layout.activity_es_bulma_oyunu)
         val images: MutableList<Int> = mutableListOf(R.drawable.camel, R.drawable.coala, R.drawable.fox,
                 R.drawable.lion, R.drawable.monkey, R.drawable.wolf, R.drawable.camel, R.drawable.coala, R.drawable.fox, R.drawable.lion, R.drawable.monkey, R.drawable.wolf)
-
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         buttons = listOf(button1, button2, button3, button4, button5, button6, button7, button8, button9, button10, button11, button12)
 
@@ -51,7 +52,10 @@ class esBulmaOyunu : AppCompatActivity() {
 
 
     }
-
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return super.onSupportNavigateUp()
+    }
     fun loadAnimations() {
 
         //  back_anim = AnimatorInflater.loadAnimator(applicationContext, R.animator.back_animator) as AnimatorSet

@@ -25,7 +25,7 @@ class recyclerView : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_recycler_view)
         auth = FirebaseAuth.getInstance()
-
+        examplelist =ArrayList<ExampleList>()
         //  dogruuu = intent.getIntExtra("dogruu", 0)
 
         preferences=this.getSharedPreferences("com.example.bilgiyarismasi", Context.MODE_PRIVATE)
@@ -42,15 +42,16 @@ class recyclerView : AppCompatActivity() {
 
         //  (puanlarim as MutableSet<String>).add(dogruuu.toString())
 
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
 
         val layoutManager= LinearLayoutManager(this)
         recycler_view.layoutManager =layoutManager
 
-         adapter = recyclerAdapter(examplelist)
+        val  adapter = recyclerAdapter(examplelist)
 
         recycler_view.adapter = adapter
-         (recycler_view.adapter as recyclerAdapter).notifyDataSetChanged()
 
 
        /* Exit.setOnClickListener {
@@ -62,16 +63,19 @@ class recyclerView : AppCompatActivity() {
 
 private fun postToList(){
    val userName = auth.currentUser!!.displayName.toString()
-    val list =ArrayList<ExampleList>()
 
     for(i in 1..1){
 
-        list.add(ExampleList(" ${i}", userName,trueee.toString() ))
+        examplelist.add(ExampleList(" ${i}", userName,trueee.toString() ))
 
     }
 
 }
 
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return super.onSupportNavigateUp()
+    }
 
 
 }

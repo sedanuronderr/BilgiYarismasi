@@ -7,17 +7,20 @@
 
     android:textAlignment="center"
     tools:context=".view.QuizzShow">
+
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/animationView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-
+        app:layout_constraintTop_toTopOf="parent"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
         app:lottie_rawRes="@raw/partyyy" />
+
     <ScrollView
         android:id="@+id/scrollView3"
         android:layout_width="0dp"
@@ -103,18 +106,19 @@
 
     <LinearLayout
         android:id="@+id/pasGec"
-        android:layout_width="90dp"
-        android:layout_height="51dp"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
 
-        android:layout_marginEnd="38dp"
-
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="478dp"
         android:background="@drawable/design_button"
         android:gravity="center"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="@+id/sikcikar"
+        app:layout_constraintBottom_toTopOf="@+id/sonuc"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/sikcikar"
-        app:layout_constraintTop_toTopOf="@+id/sikcikar">
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@id/text"
@@ -131,15 +135,15 @@
 
     <LinearLayout
         android:id="@+id/sikcikar"
-        android:layout_width="90dp"
-        android:layout_height="51dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginBottom="74dp"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
 
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="478dp"
+        android:background="@drawable/design_button"
         android:gravity="center"
         android:orientation="horizontal"
-        android:background="@drawable/design_button"
         app:layout_constraintBottom_toTopOf="@+id/progressBar"
         app:layout_constraintEnd_toStartOf="@+id/pasGec"
         app:layout_constraintStart_toEndOf="@+id/Dogrucevap"
@@ -160,17 +164,19 @@
 
     <LinearLayout
         android:id="@+id/Dogrucevap"
-        android:layout_width="90dp"
-        android:layout_height="51dp"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
         android:layout_marginStart="55dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="24dp"
+        android:layout_marginBottom="478dp"
         android:background="@drawable/design_button"
         android:gravity="center"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="@+id/pasGec"
+        app:layout_constraintBottom_toTopOf="@+id/sonuc"
         app:layout_constraintEnd_toStartOf="@+id/sikcikar"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/sikcikar">
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@id/text"
@@ -202,16 +208,31 @@
         android:id="@+id/progressBar"
         android:layout_width="114dp"
         android:layout_height="0dp"
-        android:layout_marginBottom="328dp"
+        android:layout_marginBottom="330dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sikcikar" />
 
+    <TextView
+        android:id="@+id/sonuc"
+        android:layout_width="0dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="27dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pasGec" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
-
 
 
 

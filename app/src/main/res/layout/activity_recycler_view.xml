@@ -17,17 +17,7 @@
 
     </androidx.recyclerview.widget.RecyclerView>
 
-    <ImageView
-        android:id="@+id/Exit"
-        android:layout_width="110dp"
-        android:layout_height="91dp"
 
-        android:layout_marginStart="10dp"
-        android:layout_marginBottom="390dp"
-        android:layout_marginTop="460dp"
-        app:layout_constraintBottom_toBottomOf="@+id/scrollView2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/signout_pic" />
 
 
 </RelativeLayout>

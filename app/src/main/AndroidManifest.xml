@@ -14,14 +14,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BilgiYarismasi">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9199482281864772~9043688916"/>
         <activity android:name=".esBulmaOyunu"></activity>
         <activity android:name=".recyclerView" />
-        <activity android:name=".gorsel1" />
+
         <activity android:name=".Gorsel" />
-        <activity android:name=".Animasyon" />
         <activity android:name=".QuizShowActivity" />
         <activity android:name=".view.MainActivity2" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

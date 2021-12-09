@@ -10,12 +10,14 @@ import android.graphics.Color
 import android.media.MediaPlayer
 import android.os.Bundle
 import android.os.CountDownTimer
+import android.util.Log
 import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
@@ -23,6 +25,10 @@ import com.example.bilgiyarismasi.Gorsel
 import com.example.bilgiyarismasi.R
 import com.example.bilgiyarismasi.model.Results
 import com.example.bilgiyarismasi.viewmodel.QuizzShowViewModel
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.LoadAdError
+import com.google.android.gms.ads.interstitial.InterstitialAd
+import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
 import kotlinx.android.synthetic.main.fragment_quizz_show.*
 import java.util.*
 import kotlin.collections.ArrayList
@@ -40,6 +46,7 @@ open class QuizzShow : Fragment() {
     private var a4 = ""
     var tdcount =0
     var tycount =0
+
 
     private lateinit var num2 :View
     private lateinit var data: List<Results>
@@ -70,6 +77,16 @@ open class QuizzShow : Fragment() {
         animasyonbasla()
 
 
+
+        sonuc.setOnClickListener {
+
+
+            val intent =Intent(context, Gorsel::class.java)
+            intent.putExtra("dogru", tdcount)
+
+            intent.putExtra("yanlis", tycount)
+            startActivity(intent)
+        }
         
         abtn.setOnClickListener {
 
@@ -268,24 +285,22 @@ open class QuizzShow : Fragment() {
     fun animasyonbasla(){
 
 
-        btnSayac.animate().scaleX(0f).duration=10000
-        time= object : CountDownTimer(10000, 1000){
+        btnSayac.animate().scaleX(0f).duration=40000
+        time= object : CountDownTimer(40000, 1000){
             override fun onTick(millisUntilFinished: Long) {
 
 
             }
 
             override fun onFinish() {
-                btnSayac.scaleX = 1f
+                btnSayac.scaleX = 0f
                 time.start()
                 btnSayac.animate().scaleX(0f).duration = 10000
-
-
-               val intent =Intent(context, Gorsel::class.java)
-                intent.putExtra("dogru", tdcount)
-
-                intent.putExtra("yanlis", tycount)
-                startActivity(intent)
+                abtn.isClickable=false
+                bbtn.isClickable=false
+                cbtn.isClickable=false
+                dbtn.isClickable=false
+                sonuc.text = "Sonuçları Göster"
                 }
 
 
