@@ -4,12 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Sedanur/proje/app/src/main/res/drawable/basla.xml" value="0.2703125" />
+        <entry key="..\:/Users/Sedanur/proje/app/src/main/res/drawable/custom_btn.xml" value="0.2703125" />
+        <entry key="..\:/Users/Sedanur/proje/app/src/main/res/drawable/custom_btn2.xml" value="0.2703125" />
+        <entry key="..\:/Users/Sedanur/proje/app/src/main/res/drawable/design_button.xml" value="0.2703125" />
         <entry key="..\:/Users/Sedanur/proje/app/src/main/res/drawable/design_button2.xml" value="0.2703125" />
         <entry key="..\:/Users/Sedanur/proje/app/src/main/res/drawable/ic_baseline_clear_24.xml" value="0.2703125" />
         <entry key="..\:/Users/Sedanur/proje/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.2703125" />
         <entry key="..\:/Users/Sedanur/proje/app/src/main/res/drawable/oyun.xml" value="0.2703125" />
         <entry key="..\:/Users/Sedanur/proje/app/src/main/res/drawable/signout_pic.xml" value="0.2703125" />
         <entry key="..\:/Users/Sedanur/proje/app/src/main/res/drawable/start_test.xml" value="0.2703125" />
+        <entry key="..\:/Users/Sedanur/proje/app/src/main/res/layout/activity_es_bulma_oyunu.xml" value="0.245018115942029" />
         <entry key="..\:/Users/Sedanur/proje/app/src/main/res/layout/activity_gorsel.xml" value="0.264" />
         <entry key="..\:/Users/Sedanur/proje/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Sedanur/proje/app/src/main/res/layout/activity_main2.xml" value="0.2" />

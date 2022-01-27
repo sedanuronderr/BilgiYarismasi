@@ -18,7 +18,10 @@
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-9199482281864772~9043688916"/>
-        <activity android:name=".esBulmaOyunu"></activity>
+
+        <activity android:name=".esBulmaOyunu">
+
+        </activity>
         <activity android:name=".recyclerView" />
 
         <activity android:name=".Gorsel" />
