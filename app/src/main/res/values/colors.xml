@@ -13,5 +13,9 @@
     <color name="mavimsi">#aeaeea</color>
     <color name="pink">#c299ff</color>
 
+    <color name="primaryColor">#9575cd</color>
+    <color name="primaryLightColor">#c7a4ff</color>
+    <color name="primaryDarkColor">#65499c</color>
+    <color name="primaryTextColor">#000000</color>
 
 </resources>

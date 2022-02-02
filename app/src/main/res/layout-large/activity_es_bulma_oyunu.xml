@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/scor"
+        android:layout_width="98dp"
+        android:layout_height="60dp"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/kalp"
+        android:layout_marginTop="9dp"
+        android:layout_width="101dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="180dp"
+        android:text="5"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="59dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="120dp"
+        app:srcCompat="@drawable/ic_baseline_favorite_24" />
+
+    <ImageButton
+        android:id="@+id/button1"
+        android:layout_width="116dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="@color/mavimsi"
+        android:background="@color/white"
+        android:scaleType="fitStart"
+        android:src="@drawable/starr"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <ImageButton
+        android:id="@+id/button2"
+        android:layout_width="116dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="80dp"
+
+
+        android:background="@color/mavimsi"
+        android:scaleType="fitStart"
+        android:src="@drawable/starr"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <ImageButton
+        android:id="@+id/button3"
+        android:layout_width="116dp"
+        android:layout_height="100dp"
+
+        android:layout_marginStart="262dp"
+        android:layout_marginTop="80dp"
+        android:background="@color/mavimsi"
+        android:scaleType="fitStart"
+        android:src="@drawable/starr"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <ImageButton
+        android:id="@+id/button4"
+        android:layout_width="116dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="190dp"
+
+
+        android:background="@color/mavimsi"
+        android:scaleType="fitStart"
+        android:src="@drawable/starr"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="213dp" />
+
+    <ImageButton
+        android:id="@+id/button5"
+        android:layout_width="116dp"
+        android:layout_height="100dp"
+
+        android:layout_marginStart="138dp"
+
+        android:layout_marginTop="190dp"
+        android:background="@color/mavimsi"
+        android:scaleType="fitStart"
+        android:src="@drawable/starr"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <ImageButton
+        android:id="@+id/button6"
+        android:layout_width="116dp"
+        android:layout_height="100dp"
+
+        android:layout_marginStart="262dp"
+        android:layout_marginTop="190dp"
+
+        android:background="@color/mavimsi"
+        android:scaleType="fitStart"
+        android:src="@drawable/starr"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="186dp" />
+
+    <ImageButton
+        android:id="@+id/button7"
+        android:layout_width="116dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="300dp"
+
+
+        android:background="@color/mavimsi"
+        android:scaleType="fitStart"
+        android:src="@drawable/starr"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="313dp" />
+
+    <ImageButton
+        android:id="@+id/button8"
+        android:layout_width="116dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="300dp"
+
+
+        android:background="@color/mavimsi"
+        android:scaleType="fitStart"
+        android:src="@drawable/starr"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="333dp" />
+
+
+    <ImageButton
+        android:id="@+id/button9"
+        android:layout_width="116dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="262dp"
+        android:layout_marginTop="300dp"
+
+
+        android:background="@color/mavimsi"
+        android:scaleType="fitStart"
+        android:src="@drawable/starr"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <ImageButton
+        android:id="@+id/button10"
+        android:layout_width="116dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="410dp"
+
+        android:background="@color/mavimsi"
+        android:scaleType="fitStart"
+        android:src="@drawable/starr"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="433dp" />
+
+
+    <ImageButton
+        android:id="@+id/button11"
+        android:layout_width="116dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="410dp"
+
+
+        android:background="@color/mavimsi"
+        android:scaleType="fitStart"
+        android:src="@drawable/starr"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="433dp" />
+
+    <ImageButton
+        android:id="@+id/button12"
+        android:layout_width="116dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="262dp"
+        android:layout_marginTop="410dp"
+
+
+        android:background="@color/mavimsi"
+        android:scaleType="fitStart"
+        android:src="@drawable/starr"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="426dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="122dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="500dp">
+
+
+        <com.airbnb.lottie.LottieAnimationView
+
+            android:layout_width="112dp"
+            android:layout_height="85dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/tenor" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="122dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginStart="130dp"
+        >
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/fox" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="122dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginStart="260dp"
+        >
+        <com.airbnb.lottie.LottieAnimationView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/running" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
+
+
+
+
+

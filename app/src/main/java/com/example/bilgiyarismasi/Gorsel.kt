@@ -61,7 +61,7 @@ class Gorsel : AppCompatActivity()  {
         
 
 
-        recyclergit.setOnClickListener {
+        /*recyclergit.setOnClickListener {
             editor.putInt("dogrusayisi", dogruu).apply()
         //    editor.putString("username",guncelKullaniciEmaili).apply()
           //  "username",guncelKullaniciEmaili
@@ -72,7 +72,7 @@ class Gorsel : AppCompatActivity()  {
 
         }
 
-
+*/
       oyunbutton.setOnClickListener {
           val intent= Intent(this, esBulmaOyunu::class.java)
           startActivity(intent)
