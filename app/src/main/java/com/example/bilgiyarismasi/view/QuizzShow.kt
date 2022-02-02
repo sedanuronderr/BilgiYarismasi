@@ -300,7 +300,7 @@ open class QuizzShow : Fragment() {
                 bbtn.isClickable=false
                 cbtn.isClickable=false
                 dbtn.isClickable=false
-                sonuc.text = "Sonuçları Göster"
+                sonuc.text = "Show Results"
                 }
 
 
@@ -316,7 +316,7 @@ open class QuizzShow : Fragment() {
             tdcount++
 
 
-            val toast = Toast.makeText(c, "DOĞRU BİLDİNİZ..", Toast.LENGTH_SHORT);
+            val toast = Toast.makeText(c, "Correct Answer", Toast.LENGTH_SHORT);
             val view = toast.getView()
             toast.setGravity(Gravity.LEFT, 200, 250)
 
@@ -343,7 +343,7 @@ open class QuizzShow : Fragment() {
             tycount++
 
 
-            val toast = Toast.makeText(c, "DOĞRU BİLEMEDİNİZ..", Toast.LENGTH_SHORT);
+            val toast = Toast.makeText(c, "Wrong Answer", Toast.LENGTH_SHORT);
             val view = toast.getView()
             toast.setGravity(Gravity.LEFT, 200, 250)
             //To change the Background of Toast

@@ -2,4 +2,11 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/navigation1" />
+    android:id="@+id/navigation1"
+    app:startDestination="@id/quizzShow2">
+    <fragment
+        android:id="@+id/quizzShow2"
+        android:name="com.example.bilgiyarismasi.view.QuizzShow"
+        android:label="fragment_quizz_show"
+        tools:layout="@layout/fragment_quizz_show" />
+</navigation>
