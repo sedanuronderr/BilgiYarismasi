@@ -22,7 +22,7 @@ import com.example.bilgiyarismasi.R
 
 
 import com.example.bilgiyarismasi.view.QuizzShow
-import com.example.bilgiyarismasi.view.QuizzShowDirections
+
 
 import com.example.bilgiyarismasi.viewmodel.QuizzShowViewModel
 import kotlinx.android.synthetic.main.fragment_login.*

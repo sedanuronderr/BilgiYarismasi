@@ -2,28 +2,4 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/navigation1"
-    app:startDestination="@id/quizzShow">
-
-    <fragment
-        android:id="@+id/quizzShow"
-        android:name="com.example.bilgiyarismasi.view.QuizzShow"
-        android:label="fragment_quizz_show"
-        tools:layout="@layout/fragment_quizz_show" >
-        <action
-            android:id="@+id/action_quizzShow_to_resultFragment"
-            app:destination="@id/resultFragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/resultFragment"
-        android:name="com.example.bilgiyarismasi.view.ResultFragment"
-        android:label="fragment_result"
-        tools:layout="@layout/fragment_result" >
-        <argument
-            android:name="dogrusayi"
-            app:argType="string" />
-        <argument
-            android:name="yanlissayi"
-            app:argType="string" />
-    </fragment>
-</navigation>
+    android:id="@+id/navigation1" />
