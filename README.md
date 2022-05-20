@@ -1,4 +1,4 @@
-## Retrofit,MVVM,Fragment,Firebase ,Animation kütüphaneleri kullanıldı
+## Projede Retrofit,MVVM,Fragment,Firebase ,Animation kütüphaneleri kullanıldı.
 
 ![SodaPDF-converted-capture_20220102204806426](https://user-images.githubusercontent.com/56538177/147885124-5b7cc811-78a9-4afb-968d-e152bd50761e.jpg)
 ![SodaPDF-converted-capture_20220102204708511](https://user-images.githubusercontent.com/56538177/147885128-113cf044-375e-45ac-abd8-fc41ca72fc52.jpg)
