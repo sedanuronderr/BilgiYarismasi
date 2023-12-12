@@ -1,4 +1,4 @@
-## Projede Retrofit,MVVM,Fragment,Firebase ,Animation kütüphaneleri kullanıldı.
+##  Retrofit,MVVM,Fragment,Firebase ,Animation Jetpack libraries were used in the project.
 
 
 <table>
